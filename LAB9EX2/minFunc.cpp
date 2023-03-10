@@ -1,9 +1,12 @@
 #include "minFunc.h"
 
 const int * min(const int arr[], int arrSize){
-    if (arrSize <= 1){
+    if (arrSize == 1){
         //size one array means first element is min, return the pointer to it
         return arr;
+    }
+    else if (arrSize == 0){
+        return nullptr;    
     }
     else{
         //set min val to be the pointer of the last val
