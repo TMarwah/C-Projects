@@ -1,12 +1,11 @@
 #include <cstdlib>
 #include <cmath>
 #include "IntList.h"
-
 IntList::IntList(){
     head = nullptr;
     tail = nullptr;
 }
-
+//testing
 IntList::~IntList(){
     while (!empty()){
         pop_front();
