@@ -2,7 +2,7 @@
 //testing github push
 #include <iostream>
 using namespace std;
-
+//testing command line push
 int main() {
    cout << "Enter a test number(1-5): ";
 	int test;
