@@ -4,7 +4,7 @@ using namespace std;
 
 Wizard::Wizard(const string&name , double health, double attackStrength, int rank)
 : Character(WIZARD, name, health, attackStrength) , rank(rank){}
-
+//multi file gitpush test
 void Wizard::attack(Character &enemy){
     if (enemy.getType() == WIZARD){
         Wizard &enemyWizard = dynamic_cast<Wizard &>(enemy);
