@@ -10,7 +10,7 @@ struct IntNode {
 };
 
 class IntList {
- private:
+ protected:
 	IntNode *head;
 	IntNode *tail;
  public:
@@ -31,14 +31,4 @@ class IntList {
 	friend ostream & operator<<(ostream &, const IntList &);
 
 };
-
-
-
-
-
-
-
-
-
-
 #endif
